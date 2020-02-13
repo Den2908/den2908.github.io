@@ -1,5 +1,5 @@
 <?php
-$confirmationToken = '40b2894a';
+$confirmationToken = '8c461410';
 $secretKey = 'NS5WfsferbS54390seu';
 function vk_msg_send($peer_id,$text){
 	$request_params = array(
