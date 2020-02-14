@@ -6,8 +6,16 @@
 </body>
 <link href="/Den2908/styles.css" rel="stylesheet"> 
 </head> 
-<body> 
-<video src="Den2908/1.mp4" muted autoplay="" loop=""></video>
+<body>
+<script>
+var video = document.getElementById("video");
+var volume = document.getElementById("volume");
+
+volume.addEventListener('click', function() {
+    video.muted = (video.muted == false) ? true : false;
+});
+</script> 
+<video id="video" src="Den2908/1.mp4" muted autoplay="" loop=""></video>
 <button id="volume">Звук</button>
 <div class="block">
 <div class="nickname animated bounceInDown">Den2908</div> 
