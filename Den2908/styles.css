@@ -62,3 +62,9 @@ video {
 	right: 10px;
 	font-family: "Indie Flower", sans-serif;
 }
+
+#volume {
+width: 50;
+margin-top: 10px;
+margin-left: 10px;
+}
