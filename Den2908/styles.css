@@ -42,12 +42,12 @@ video {
 }
 
 .media {
-	width: 30%;
 }
 
 .media > a {
-	color: #fff;
 	margin-right: 70px;
+	float: left;
+	width: 20%;
 }
 
 .media > a:last-child {
