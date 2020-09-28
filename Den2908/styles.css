@@ -42,7 +42,7 @@ video {
 }
 
 .media {
-	font-size: 30px;
+	width: 30%;
 }
 
 .media > a {
